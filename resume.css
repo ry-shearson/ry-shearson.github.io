@@ -76,13 +76,14 @@
   font-weight: lighter;
 }
 
+.body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .title {
   font-weight: bold;
   font-size: 25px;
-}
-
-.body {
-  font-family: 'Cantata One', serif;
+  font-family: 'Cantata One', serif
 }
 
 .color-text {
