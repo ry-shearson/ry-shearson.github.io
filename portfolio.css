@@ -1,0 +1,173 @@
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.box {
+  margin: 0 auto;
+  width: 800px;
+  padding: 35px;
+}
+
+.body {
+  background-color: #E1E5F2;
+}
+
+.cbox {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #022B3A;
+  background-size: 16px 16px;
+  color: #E1E5F2;
+  text-decoration: none;
+  font-family: 'Cantata One', serif;
+  padding-bottom: 20px;
+}
+
+.footerbar {
+  color: #E1E5F2;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.footer-css {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #022B3A;
+  background-size: 16px 16px;
+  color: #E1E5F2;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-background {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #022B3A;
+  background-size: 16px 16px;
+  color: #E1E5F2;
+  text-decoration: none;
+  font-family: 'Cantata One', serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.navbar {
+  color: #E1E5F2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 5px;
+}
+
+a:hover {
+  color: #BFDBF7;
+  font-size: 20px;
+}
+
+a:visited {
+  color: #1F7A8C;
+}
+
+a {
+  transition: font-size .5s;
+}
+
+img {
+  margin: -350px;
+  transform: scale(.4);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .box {
+    width: 300px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    font-size: 5px;
+  }
+
+  .footerbar {
+    font-size: 10px;
+  }
+
+  a:hover {
+    transform: scale(1);
+    font-size: 7px;
+  }
+
+  img {
+    transform: scale(.3);
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 751px) {
+  .box {
+    width: 700px;
+  }
+
+  .navbar {
+    font-size: 15px;
+  }
+
+  .footerbar {
+    font-size: 15px;
+  }
+
+  a:hover {
+    transform: scale(1);
+    font-size: 15px;
+  }
+
+  img {
+    transform: scale(.4);
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

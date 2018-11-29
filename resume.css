@@ -1,0 +1,409 @@
+.header-background {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #022B3A;
+  background-size: 16px 16px;
+  color: #E1E5F2;
+  text-decoration: none;
+  font-family: 'Cantata One', serif;
+}
+
+.menu-flex {}
+
+.box {
+  margin: 0 auto;
+  width: 800px;
+  padding: 35px;
+}
+
+.boxF {
+  margin: 0 auto;
+  width: 800px;
+  padding: 35px;
+}
+
+.box1 {
+  margin: 0 auto;
+  width: 950px;
+  padding: 35px;
+}
+
+.boxEdu {
+  margin: 0 auto;
+  width: 800px;
+  padding: 5px 35px 35px 35px;
+}
+
+/* .box3 {
+  margin: 0 auto;
+  width: 800px;
+  padding: 15px;
+  margin: 10px;
+} */
+.subtitle {
+  font-size: 12.5px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 45px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.email {
+  font-size: 15px;
+  padding-top: 0px;
+  color: #E1E5F2;
+  text-decoration: none;
+}
+
+.navbar {
+  color: #E1E5F2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 5px;
+}
+
+.footerbar {
+  color: #E1E5F2;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.body {
+  font-family: 'Cantata One', serif;
+}
+
+.color-text {
+  color: #022B3A;
+  background-color: #E1E5F2;
+}
+
+.abt-sizing {
+  text-indent: 50px;
+}
+
+.skills-css {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #022B3A;
+  background-size: 16px 16px;
+  color: #E1E5F2;
+  padding-bottom: 25px;
+}
+
+.footer-css {
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #022B3A;
+  background-size: 16px 16px;
+  color: #E1E5F2;
+}
+
+.skills-set {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.skill {
+  font-size: 12.5px;
+  font-weight: lighter;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+h4 {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.name-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.skills-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.base-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.exp-flex {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp-ex-L {
+  flex-basis: 33%;
+  padding: 0px 25px 0px 0px;
+}
+
+.exp-ex-M {
+  flex-basis: 33%;
+  padding: 0px 25px 0px 25px;
+}
+
+.exp-ex-R {
+  flex-basis: 33%;
+  padding: 0px 0px 0px 25px;
+}
+
+a:hover {
+  color: #BFDBF7;
+  font-size: 20px;
+}
+
+a:visited {
+  color: #1F7A8C;
+}
+
+a {
+  transition: font-size .5s;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #1F7A8C;
+}
+
+meter::-webkit-meter-bar {
+  background: #E1E5F2;
+}
+
+.skills-expo {
+  transition: transform .5s;
+}
+
+.skills-expo:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 750px) {
+  .box {
+    width: 300px;
+    padding-bottom: 5px;
+  }
+
+  .boxF {
+    width: 300px;
+  }
+
+  .box1 {
+    width: 300px;
+  }
+
+  .boxEdu {
+    width: 300px;
+  }
+
+  .abt-sizing {
+    font-size: 10px;
+    text-indent: 15px;
+  }
+
+  .name-flex {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+  }
+
+  .skills-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exp-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills-expo:hover {
+    transform: scale(1);
+  }
+
+  .exp-ex-M {
+    padding-left: 0px;
+  }
+
+  .exp-ex-R {
+    padding-left: 0px;
+  }
+
+  .base-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    transform: scale(.8);
+    padding: -20px;
+    margin-left: -10px;
+  }
+
+  .tasks {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .navbar {
+    font-size: 5px;
+  }
+
+  .footerbar {
+    font-size: 10px;
+  }
+
+  a:hover {
+    transform: scale(1);
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 751px) {
+  .box {
+    width: 700px;
+  }
+
+  .boxF {
+    width: 700px;
+  }
+
+  .box1 {
+    width: 700px;
+  }
+
+  .boxEdu {
+    width: 700px;
+  }
+
+  .abt-sizing {
+    font-size: 15px;
+  }
+
+  .name-flex {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+  }
+
+  .skills-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .exp-flex {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills-expo:hover {
+    transform: scale(1);
+  }
+
+  .exp-ex-M {
+    padding-left: 0px;
+  }
+
+  .exp-ex-R {
+    padding-left: 0px;
+  }
+
+  .base-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    transform: scale(.9);
+    padding: -20px;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+
+  .tasks {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .navbar {
+    font-size: 15px;
+  }
+
+  .footerbar {
+    font-size: 15px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  a:hover {
+    transform: scale(1);
+    font-size: 15px;
+  }
+}
