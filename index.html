@@ -2,29 +2,39 @@
 <html>
 
 <head>
+  <title>Ryan Shearson</title>
   <meta name="viewport" content="width=device-width initial-scale=1, minimum-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel='stylesheet' type='text/css' href='resume.css' / />
+  <script src="https://kit.fontawesome.com/b4d79198b2.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Cantata+One|Montserrat" rel="stylesheet">
 </head>
 
 <header class="header-background">
-  <div class="box">
-    <nav class="menu">
-      <!-- <p class="subtitle">Ryan Shearson</p> -->
-      <a class="navbar" href="#about me"> About Me</a>
-      <a class="navbar" href="#education"> Education</a>
-      <a class="navbar" href="#skills"> Skills</a>
-      <a class="navbar" href="#experience"> Experience</a>
-      <a class="navbar" href="./portfolio.html"> Portfolio</a>
-      <a class="navbar" href="./Ryan Shearson CV.pdf"> Download CV</a>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ryan Shearson</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#about me">About Me</a>
+        <a class="nav-item nav-link" href="#education">Education</a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#experience">Experience</a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="./Ryan Shearson CV.pdf">Download CV</a>
+      </div>
+    </div>
+  </nav>
   <div class="name-flex">
     <section>
       <h1 class="name">Ryan Shearson</h1>
-      <a class="email" href="mailto:ryanshearson@gmail.com">email: ryanshearson@gmail.com</a>
+      <br>
+      <a class="icon" href="mailto:ryanshearson@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/ryan-shearson"><i class="fab fa-linkedin"></i></a>
     </section>
-    <img src="./me.jpg" alt="Me">
+    <img src="./me.jpg" alt="Me" />
   </div>
 </header>
 
@@ -42,13 +52,12 @@
     </div>
   </section>
   <section class="color-text" id="education">
-    <div class="boxEdu">
+    <div class="boxEdu" class="fontEdu">
       <h3 class="title">Education:</h3>
       <div class="base-flex">
         <h4>University of British Columbia, Vancouver B.C.</h4>
-        <h5>Bachelor of Arts, anticipated April 2020</h5>
-        <h5>Major: Cognitive Systems</h5>
-        <h5>Minor: Computer Science</h5>
+        <h5>Bachelor of Arts, April 2020</h5>
+        <h5>Cognitive Systems</h5>
       </div>
     </div>
   </section>
@@ -57,18 +66,21 @@
       <h3 class="title"> Skills:</h3>
       <div class="skills-flex">
         <section class="skills-expo">
-          <h4 class="skills-set"> Customer Service:</h4>
-          <p class="skill"> Communication: <meter value="93" min="0" max="100"></meter> 95%</p>
-          <p class="skill"> Problem Solving: <meter value="88" min="0" max="100"></meter> 90%</p>
-          <p class="skill"> Sales: <meter value="85" min="0" max="100"></meter> 85%</p>
-          <p class="skill"> Mandarin: <meter value="67" min="0" max="100"></meter> 65%</p>
+          <h4 class="skills-set">Customer Service:</h4>
+          <p class="skill"> Communication</p>
+          <p class="skill"> Problem Solving</p>
+          <p class="skill"> Sales</p>
+          <p class="skill"> Mandarin</p>
+          <p class="skill"> Customer Relations</p>
         </section>
         <section class="skills-expo">
-          <h4 class="skills-set"> Technological: </h4>
-          <p class="skill"> Java: <meter value="76" min="0" max="100"></meter> 75%</p>
-          <p class="skill"> Arduino: <meter value="80" min="0" max="100"></meter> 80%</p>
-          <p class="skill"> SPSS/Excel: <meter value="80" min="0" max="100"></meter> 80%</p>
-          <p class="skill"> HTML/CSS: <meter value="75" min="0" max="100"></meter> 75%</p>
+          <h4 class="skills-set">Technological: </h4>
+          <p class="skill"> Java</p>
+          <p class="skill"> Arduino</p>
+          <p class="skill"> SPSS/Excel</p>
+          <p class="skill"> HTML</p>
+          <p class="skill"> CSS </p>
+          <p class="skill"> JavaScript </p>
         </section>
   </section>
   </div>
@@ -76,58 +88,82 @@
   </section>
   <section class="color-text" id="experience">
     <div class="box1">
-      <h3 class="title">Experience:</h3>
-      <div class="exp-flex">
-        <section class="exp-ex-L">
-          <h4>University of British Columbia</h4>
-          <h5>International Student Initiative</h5>
-          <h5>2018-Present</h5>
-          <section class="tasks">
-            <p>- Official Representative for the University</p>
-            <p>- Giving tours to prospective undergraduate students</p>
-            <p>- Supplying information regarding campus life and admission logistics</p>
-            <p>- Group management skills</p>
-            <p>- Public speaking experience in front of large crowds in a clear and concise manner</p>
-            <p>- Understanding of cultural communication skills and problem solving</p>
-          </section>
-        </section>
-        <section class="exp-ex-M">
-          <h4>Noah's Ark Pet Supply</h4>
-          <h5>Customer Service & Sales</h5>
-          <h5>2014-2016</h5>
-          <section class="tasks">
-            <p>- Worked as a sales representative assisting customers</p>
-            <p>- Helped train new employees in store procedure</p>
-            <p>- Helped with item inventory and finances</p>
-            <p>- Learned to solve problems ranging from scheduling, opening/closing, and store resets</p>
-            <p>- Expected to learn and research new products to better understand and market them</p>
-          </section>
-        </section>
-        <section class="exp-ex-R">
-          <h4>Hosteling International</h4>
-          <h5>Customer Relations & Logistics</h5>
-          <h5>2017-2017</h5>
-          <section class="tasks">
-            <p>- Handled logics and planning for a 250 person hostel, including bed assignments and room
-              management, using Room Master</p>
-            <p>- Worked the reservations office for all 25 Western Canada Hostels</p>
-            <p>- Created, modified, and processed reservations for the HI-Pacific Mountain Region</p>
-            <p>- Handled customer support for reservation issues and fixed the problems</p>
-            <p>- Worked as a resource and help line for the Western Canada hostels if they were having any
-              issues</p>
-          </section>
-        </section>
+      <h3 class="title">Notable Experience:</h3>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-xl-3 col-12 col-md-6 flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <img class="exp-img" src="pwr.jpg" alt="PowerReviews">
+              </div>
+              <div class="back">
+                <h4>PowerReviews</h4>
+                <h5>Technical Success Analyst Intern</h5>
+                <h6>June 2019-August 2019</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-12 col-md-6 flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <img class="exp-img" src="./ubc.jpg" alt="UBC">
+              </div>
+              <div class="back">
+                <h4>The University of British Columbia</h4>
+                <h5>Student Ambassador</h5>
+                <h6>May 2018-Present</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-12 col-md-6 flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <img class="exp-img" src="hic.png" alt="Hosteling International Canada">
+              </div>
+              <div class="back">
+                <h4>Hosteling International Canada</h4>
+                <h5>Central Reservations & Reception</h5>
+                <h6>April 2017-September 2017</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-12 col-md-6 flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <img class="exp-img" src="cal.jpg" alt="The Calendar">
+              </div>
+              <div class="back">
+                <h4>The Calendar</h4>
+                <h5>Representative & Promoter</h5>
+                <h6>September 2017-Present</h6>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <section class="footer-css" id="footer">
-    <div class="boxF">
-      <div class="footer-flex">
-        <a class="footerbar">Ryan Shearson</a>
-        <a class="footerbar" href="mailto:ryanshearson@gmail.com">email: ryanshearson@gmail.com</a>
-      </div>
+  <section class="skills-css" id="portfolio">
+    <div class="box">
+      <h3 class="title">Portfolio Work:</h3>
     </div>
   </section>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div>
+      <a class="navbar-brand" href="#">Ryan Shearson</a>
+    </div>
+      <div>
+        <div class="navbar-nav navbar-right footerflex">
+          <a class="nav-item footertitle icon" href="mailto:ryanshearson@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a class="nav-item footertitle icon" href="https://www.linkedin.com/in/ryan-shearson"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
