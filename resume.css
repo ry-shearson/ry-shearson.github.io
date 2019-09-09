@@ -55,6 +55,7 @@ i:hover{
   font-size: 45px;
   padding-bottom: 0px;
   margin-bottom: 10px;
+  padding-top: 15px;
 }
 
 .icon  {
@@ -286,10 +287,6 @@ meter::-webkit-meter-bar {
     display: none;
   }
 
-  .navbar {
-    font-size: 5px;
-  }
-
   .pit:hover {
     transform: scale(1);
   }
@@ -370,11 +367,6 @@ meter::-webkit-meter-bar {
     display: none;
   }
 
-  .navbar {
-    font-size: 15px;
-  }
-
-
   .menu {
     display: flex;
     justify-content: space-around;
@@ -450,4 +442,8 @@ meter::-webkit-meter-bar {
 
 .footerflex {
   flex-direction: row;
+}
+
+#headshot {
+  margin-top:20px;
 }
