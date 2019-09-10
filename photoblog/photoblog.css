@@ -1,0 +1,25 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	filter: grayscale(95);
+	transition-duration: 2s;
+}
+
+p {
+	font-family: 'Audiowide', cursive;
+	width: 26.5%;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: black solid 5px;
+}
+
+img:hover {
+	filter: grayscale(0);
+}
+
+body {
+	background: #F4F4F4;
+}
