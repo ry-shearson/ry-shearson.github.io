@@ -9,11 +9,12 @@ img {
 p {
 	font-family: 'Audiowide', cursive;
 	width: 26.5%;
+	color: white;
 	margin-left: 1.66%;
 	font-size: 23px;
 	font-weight: 800;
 	text-transform: uppercase;
-	border-bottom: black solid 5px;
+	border-bottom: white solid 5px;
 }
 
 img:hover {
@@ -21,5 +22,5 @@ img:hover {
 }
 
 body {
-	background: #F4F4F4;
+	background: black;
 }
