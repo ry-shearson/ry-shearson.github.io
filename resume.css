@@ -247,6 +247,7 @@ meter::-webkit-meter-bar {
 
   .skills-flex {
     flex-direction: column;
+    text-align: center;
   }
 
   .exp-flex {
