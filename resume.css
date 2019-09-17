@@ -102,6 +102,8 @@ i:hover{
 .skills-set {
   font-size: 30px;
   font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* .skill {
