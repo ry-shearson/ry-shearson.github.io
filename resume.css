@@ -10,6 +10,14 @@
   text-decoration: none;
   font-family: 'Cantata One', serif;
 }
+.about-sub{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.about-sub-bot{
+  margin-top: 7px;
+}
 
 i{
   transition-duration: .5;
@@ -237,7 +245,7 @@ meter::-webkit-meter-bar {
   }
 
   .abt-sizing {
-    font-size: 10px;
+    font-size: 14px;
     text-indent: 15px;
   }
 
