@@ -74,6 +74,14 @@ i:hover{
   text-decoration: none;
 }
 
+.portIcon  {
+  font-size: 80px;
+  padding:10px;
+  padding-top: 0px;
+  color: #E1E5F2;
+  text-decoration: none;
+}
+
 
 .body {
   font-family: 'Montserrat', sans-serif;
@@ -460,4 +468,8 @@ meter::-webkit-meter-bar {
 
 .portcont{
   background-color: red;
+}
+
+.icc{
+  text-align: center;
 }
