@@ -473,3 +473,7 @@ meter::-webkit-meter-bar {
 .icc{
   text-align: center;
 }
+
+.noHover {
+  pointer-events: none;
+}
