@@ -24,3 +24,14 @@ img:hover {
 body {
 	background: black;
 }
+
+@media screen and (max-width: 800px) {
+	img {
+		width: 80%;
+		float: left;
+	}
+
+	.even{
+		float: right;
+	}
+}
