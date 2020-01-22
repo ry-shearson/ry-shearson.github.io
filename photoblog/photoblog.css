@@ -1,4 +1,4 @@
-.pbimg {
+img {
 	width: 30%;
 	float: left;
 	margin: 1.66%;
@@ -6,7 +6,7 @@
 	transition-duration: 2s;
 }
 
-.pbp {
+p {
 	font-family: 'Audiowide', cursive;
 	width: 26.5%;
 	color: white;
@@ -17,21 +17,21 @@
 	border-bottom: white solid 5px;
 }
 
-.pbimg:hover {
+img:hover {
 	filter: grayscale(0);
 }
 
-.pbbody {
+body {
 	background: black;
 }
 
 @media screen and (max-width: 800px) {
-	.pbimg {
+	img {
 		width: 80%;
 		float: left;
 	}
 
-	.pbeven{
+	.even{
 		float: right;
 	}
 }
