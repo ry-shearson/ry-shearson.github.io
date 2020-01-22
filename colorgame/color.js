@@ -1,21 +1,23 @@
 var numOfSquares = 9;
 var colors = genColors(numOfSquares);
-var squares = document.querySelectorAll(".square");
+var squares = document.querySelectorAll(".cgsquare");
 // correct color
 var pickedColor = pickColor();
-var colorDisplay = document.getElementById('colorDisplay');
-var message = document.querySelector('#message');
-var h1 = document.querySelector("h1");
-var resetButton = document.querySelector("#reset");
-var easyBtn = document.querySelector("#easyBtn");
-var hardBtn = document.querySelector("#hardBtn");
-var normBtn = document.querySelector("#normBtn");
+var colorDisplay = document.getElementById('cgcolorDisplay');
+var message = document.querySelector('#cgmessage');
+var h1 = document.querySelector("cgh1");
+var resetButton = document.querySelector("#cgreset");
+var easyBtn = document.querySelector("#cgeasyBtn");
+var hardBtn = document.querySelector("#cghardBtn");
+var normBtn = document.querySelector("#cgnormBtn");
 colorDisplay.textContent = pickedColor;
 
+
+
 easyBtn.addEventListener("click", function() {
-  easyBtn.classList.add("selected");
-  hardBtn.classList.remove("selected");
-  normBtn.classList.remove("selected");
+  easyBtn.classList.add("cgselected");
+  hardBtn.classList.remove("cgselected");
+  normBtn.classList.remove("cgselected");
   numOfSquares = 3;
   colors = genColors(numOfSquares);
   pickedColor = pickColor();
@@ -30,9 +32,9 @@ easyBtn.addEventListener("click", function() {
 })
 
 normBtn.addEventListener("click", function() {
-  normBtn.classList.add("selected");
-  easyBtn.classList.remove("selected");
-  hardBtn.classList.remove("selected");
+  normBtn.classList.add("cgselected");
+  easyBtn.classList.remove("cgselected");
+  hardBtn.classList.remove("cgselected");
   numOfSquares = 6;
   colors = genColors(numOfSquares);
   pickedColor = pickColor();
@@ -47,9 +49,9 @@ normBtn.addEventListener("click", function() {
 })
 
 hardBtn.addEventListener("click", function() {
-  hardBtn.classList.add("selected");
-  easyBtn.classList.remove("selected");
-  normBtn.classList.remove("selected");
+  hardBtn.classList.add("cgselected");
+  easyBtn.classList.remove("cgselected");
+  normBtn.classList.remove("cgselected");
   numOfSquares = 9;
   colors = genColors(numOfSquares);
   pickedColor = pickColor();

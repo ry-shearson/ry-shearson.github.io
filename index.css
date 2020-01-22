@@ -477,3 +477,110 @@ meter::-webkit-meter-bar {
 .noHover {
   pointer-events: none;
 }
+
+.cgbody{
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir"
+}
+
+.cgsquare{
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  transition: .75s;
+  border-radius: 20%;
+}
+
+.cgcontainer{
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.cgh1{
+  color: #E1E5F2;
+  line-height: 1.3;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #022B3A;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#cgmessage{
+  display: inline-block;
+  width: 20%;
+}
+
+#cgbar{
+  background-color: #E1E5F2;
+  height: 30px;
+  text-align: center;
+}
+
+.cgselected{
+  color: #E1E5F2;
+  background-color: #022B3A;
+}
+
+#cgcolorDisplay{
+  font-size: 170%;
+}
+
+.cgbutton {
+  border: none;
+  background-color: #E1E5F2;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700%;
+  color: #022B3A;
+  letter-spacing: .75px;
+  font-size: inherit;
+  transition:all, .4s;
+  outline: none;
+}
+
+.cgbutton:hover{
+  color: #E1E5F2;
+  background-color: #022B3A;
+}
+.pbimg {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	filter: grayscale(95);
+	transition-duration: 2s;
+}
+
+.pbp {
+	font-family: 'Audiowide', cursive;
+	width: 26.5%;
+	color: white;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: white solid 5px;
+}
+
+.pbimg:hover {
+	filter: grayscale(0);
+}
+
+.pbbody {
+	background: black;
+}
+
+@media screen and (max-width: 800px) {
+	.pbimg {
+		width: 80%;
+		float: left;
+	}
+
+	.pbeven{
+		float: right;
+	}
+}
