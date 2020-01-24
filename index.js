@@ -18,11 +18,9 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     flipper[i].classList.add('noHover')
   }
   for (var i = 0; i < spone.length; i++) {
-    spone[i].style.height = '150px'
-    spone[i].style.fontcolor("red");
+    spone[i].style.height = '120px'
   }
   for (var i = 0; i < sptwo.length; i++) {
-    sptwo[i].style.height = '200px';
-    sptwo[i].style.fontcolor("purple");
+    sptwo[i].style.height = '225px';
   }
 }
