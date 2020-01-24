@@ -333,6 +333,10 @@ meter::-webkit-meter-bar {
     height:
   }
 
+  .contone{
+    padding-left: 60px;
+  }
+
   i:hover{
     transition: none;
   }
