@@ -2,8 +2,8 @@ var front = document.querySelectorAll('.front');
 var back = document.querySelectorAll('.back');
 var flipper = document.querySelectorAll('.flip-container');
 var img = document.querySelectorAll('.exp-img');
-var spone = document.querySelectorAll('.spone');
-var spone = document.querySelectorAll('.sptwo');
+var spaceone = document.querySelectorAll('.spaceone');
+var spacetwo = document.querySelectorAll('.spacetwo');
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -17,10 +17,10 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   for (var i = 0; i < flipper.length; i++) {
     flipper[i].classList.add('noHover')
   }
-  for (var i = 0; i < spone.length; i++) {
-    spone[i].style.height = '10px'
+  for (var i = 0; i < spaceone.length; i++) {
+    spaceone[i].classList.add('.spone');
   }
-  for (var i = 0; i < sptwo.length; i++) {
-    sptwo[i].style.height = '500px';
+  for (var i = 0; i < spacetwo.length; i++) {
+    spacetwo[i].classList.add('.sptwo');
   }
 }

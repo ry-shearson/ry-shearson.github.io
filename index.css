@@ -240,6 +240,14 @@ meter::-webkit-meter-bar {
     transition: none;
   }
 
+  .spone{
+    height: 150px !important;
+  }
+
+  .sptwo{
+    height: 200px !important;
+  }
+
   .boxF {
     width: 300px;
   }
