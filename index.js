@@ -2,8 +2,8 @@ var front = document.querySelectorAll('.front');
 var back = document.querySelectorAll('.back');
 var flipper = document.querySelectorAll('.flip-container');
 var img = document.querySelectorAll('.exp-img');
-var spone = document.querySelectorAll('spone');
-var spone = document.querySelectorAll('sptwo');
+var spone = document.querySelectorAll('.spone');
+var spone = document.querySelectorAll('.sptwo');
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
