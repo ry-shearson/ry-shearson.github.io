@@ -18,9 +18,9 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     flipper[i].classList.add('noHover')
   }
   for (var i = 0; i < spone.length; i++) {
-    spone[i].style.height = '120px'
+    spone[i].style.height = '10px'
   }
   for (var i = 0; i < sptwo.length; i++) {
-    sptwo[i].style.height = '225px';
+    sptwo[i].style.height = '500px';
   }
 }
