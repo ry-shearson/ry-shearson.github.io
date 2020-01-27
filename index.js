@@ -31,6 +31,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     header[i].style.backgroundSize = "800px 800px";
   }
   for (var i = 0; i < spacingName.length; i++) {
-    spacingName[i].style.marginTop = "125px"
+    spacingName[i].style.marginTop = "126px"
   }
 }
