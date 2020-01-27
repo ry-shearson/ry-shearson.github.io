@@ -26,6 +26,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }
 
   for (var i = 0; i < header.length; i++) {
-    header[i].style.backgroundSize = "300px 300px";
+    header[i].style.backgroundSize = "800px 800px";
   }
 }
