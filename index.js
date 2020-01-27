@@ -4,6 +4,7 @@ var flipper = document.querySelectorAll('.flip-container');
 var img = document.querySelectorAll('.exp-img');
 var spaceone = document.querySelectorAll('.spaceone');
 var spacetwo = document.querySelectorAll('.spacetwo');
+var header = document.querySelectorAll('header-background');
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -22,5 +23,9 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }
   for (var i = 0; i < spacetwo.length; i++) {
     spacetwo[i].classList.add('sptwo');
+  }
+
+  for (var i = 0; i < header.length; i++) {
+    header[i].style.backgroundSize = "contain";
   }
 }
