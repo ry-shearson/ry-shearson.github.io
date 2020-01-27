@@ -187,7 +187,7 @@ h5 {
 }
 
 a:hover {
-  color: #BFDBF7;
+  color: #E1E5F2;
 }
 
 a {
@@ -220,6 +220,9 @@ a {
   .box {
     width: 300px;
     padding-bottom: 5px;
+  }
+  a:hover {
+    color: #1F2813;
   }
 
   #spacingName{
@@ -317,11 +320,22 @@ a {
   .pit:hover {
     transform: scale(1);
   }
+
+  .portIcon:hover{
+    color: #E1E5F2;
+  }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 751px) {
   .box {
     width: 700px;
+  }
+  a:hover {
+    color: #1F2813;
+  }
+
+  .portIcon:hover{
+    color: #E1E5F2;
   }
 
   .boxF {
