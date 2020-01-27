@@ -3,7 +3,7 @@
   background-position: bottom;
   height: 600px;
   background-size: cover;
-  color: #E1E5F2;
+  color: #dfebf5;
   text-decoration: none;
   font-family: 'Cantata One', serif;
   background-attachment: fixed;
@@ -70,7 +70,7 @@ i:hover {
   font-size: 35px;
   padding: 10px;
   padding-top: 0px;
-  color: #E1E5F2;
+  color: #dfebf5;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ i:hover {
   font-size: 80px;
   padding: 10px;
   padding-top: 0px;
-  color: #E1E5F2;
+  color: #dfebf5;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ i:hover {
 
 .color-text {
   color: #1F2813;
-  background-color: #E1E5F2;
+  background-color: #dfebf5;
 }
 
 .abt-sizing {
@@ -105,7 +105,7 @@ i:hover {
 .skills-css {
   background-color: #1F2813;
   background-size: 16px 16px;
-  color: #E1E5F2;
+  color: #dfebf5;
   padding-bottom: 25px;
 }
 
@@ -187,7 +187,7 @@ h5 {
 }
 
 a:hover {
-  color: #E1E5F2;
+  color: #dfebf5;
 }
 
 a {
@@ -199,7 +199,7 @@ a {
 }
 
 .pl {
-  background-color: #E1E5F2;
+  background-color: #dfebf5;
 }
 
 .portItemFlex {
@@ -322,7 +322,7 @@ a {
   }
 
   .portIcon:hover{
-    color: #E1E5F2;
+    color: #dfebf5;
   }
 }
 
@@ -335,7 +335,7 @@ a {
   }
 
   .portIcon:hover{
-    color: #E1E5F2;
+    color: #dfebf5;
   }
 
   .boxF {
@@ -483,7 +483,7 @@ a {
 
 .bg-light {
   color: #1F2813 !important;
-  background-color: #E1E5F2 !important
+  background-color: #dfebf5 !important
 }
 
 .footertitle {
